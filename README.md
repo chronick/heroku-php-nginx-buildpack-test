@@ -4,12 +4,14 @@ buildpack is found here: https://github.com/headcanon/heroku-buildpack-php-nginx
 
 steps to get going:
 
-    git clone __URL__
-    cd __DIR__
+    git clone https://github.com/headcanon/heroku-php-nginx-buildpack-test.git
+    cd heroku-php-nginx-buildpack-test
     heroku create -b https://github.com/headcanon/heroku-buildpack-php-nginx.git
     git push heroku master
 
-`conf/etc.d` contains the newrelic config file to get going. 
+
+##New Relic
+`conf/etc.d` contains the newrelic config file to get started with the New Relic extension. 
 
 All you have to do is enable the extension via the heroku GUI or
 
